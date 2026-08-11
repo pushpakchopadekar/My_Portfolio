@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 // Point this to your deployed/local backend
-const API_BASE = "http://localhost:8080";
+const API_BASE = "https://myportfolio-production-c844.up.railway.app";
 
 function authHeaders() {
   const token = localStorage.getItem("pf_admin_token");
