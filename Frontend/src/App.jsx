@@ -41,8 +41,7 @@ const experienceData = [
 ];
 
 // Set this to your backend URL once deployed (e.g. "https://your-app.onrender.com")
-const API_BASE = "http://localhost:8080";
-
+const API_BASE = "https://myportfolio-production-c844.up.railway.app";
 export default function Portfolio() {
   const [theme, setTheme] = useState("dark");
   const mountRef = useRef(null);
